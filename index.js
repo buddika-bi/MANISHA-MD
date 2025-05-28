@@ -71,6 +71,7 @@ const {
   filer.download((err, data) => {
   if(err) throw err
   fs.writeFile(__dirname + '/lib/session/creds.json', data, () => {
+  console.log('🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 session id scaning 🔄...')
   console.log("🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 Session Downloading 📥...")
   })})}
   
@@ -81,7 +82,7 @@ const {
   //=============================================
   
   async function connectToWA() {
-  console.log("🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 Connecting to WhatsApp ⏳️...");
+  console.log("🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 Connecting to WhatsApp 🪀...");
   const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/lib/session/')
   var { version } = await fetchLatestBaileysVersion()
   
@@ -102,18 +103,23 @@ const {
   }
   } else if (connection === 'open') {
   console.log('🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 Plugins Installing 🧬...')
+  console.log('🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 settings  Installing ⚙️...')
   const path = require('path');
   fs.readdirSync("./lib/plugins/").forEach((plugin) => {
   if (path.extname(plugin).toLowerCase() == ".js") {
   require("./lib/plugins/" + plugin);
   }
   });
-  console.log('🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 Fetching MANISHA-MD data...📚')
-  console.log('🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 Plugins installed successful ✅...')
-  console.log('🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 Downloading and extracting files ✅...')
+  console.log('🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 bot internet connected 🌐...')
+  console.log('🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 pathing .js file Connect 🔗...')
+  console.log('🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 Fetching MANISHA-MD data 📚...')
+  console.log('🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 Plugins installed successful 🔌...')
+  console.log('🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 Downloading and extracting files 📁...')
   console.log('🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 Downloading Files 📥...')
   console.log('🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 Connected Successfully ✅...')
   console.log('🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 Executing ✅...')
+  console.log('🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 creatad by manisha coder 👨‍💻...')
+  
   let up = `╭────────────●●►
  *MANISHA-MD BOT ACTIVETE*
  *PREFIX* ${prefix}
@@ -768,7 +774,7 @@ const {
   app.get("/", (req, res) => {
   res.send("🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 bot start 🚩...");
   });
-  app.listen(port, () => console.log(`🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 Server running ✅...`));
+  app.listen(port, () => console.log(`🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 Server running 🏃...`));
   setTimeout(() => {
   connectToWA()
   }, 4000);
