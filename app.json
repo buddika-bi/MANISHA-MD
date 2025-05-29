@@ -23,12 +23,6 @@
       "description": "paste your alive message hear.",
       "required": true,
       "value": "HII DEAR IM ONLINE I'M MANISHA-MD WHATSAPP BOT 😊♻️"
-    },
-    
-    "HEART_REACT": {
-      "description": "Make it true if you want bot only heart ♥️ emjois reaction .",
-      "required": true,
-      "value": "false"
     }, 
     "PREFIX": {
       "description": "paste your bot prefix note! Don't apply null prefix.",
@@ -40,100 +34,9 @@
       "description": "select your bot work type public-private-inbox-group.",
       "required": true,
       "value": "public"
-    }, 
-
-    "AUTO_TYPING": {
-      "description": "Make it true if you want auto typing.",
-      "required": false,
-      "value": "true"
-    },
-
-    "AUTO_READ_STATUS": {
-      "description": "Make it true if you want bot auto auto_read_status.",
-      "required": true,
-      "value": "true"
-    }, 
-
-    "ANTI_LINK": {
-      "description": "Make it true if you want bot auto remove group link.",
-      "required": true,
-      "value": "true"
-    },
-
-    "ANTI_BAD": {
-      "description": "Make it true if you want bot auto delete bad words from group example xxx porn etc.",
-      "required": true,
-      "value": "true"
-    }, 
-
-   "CURRENT_STATUS": {
-      "description": "Make it true if want automatic voice reply .",
-      "required": false,
-      "value": "false"
-    }, 
-
-    "FAKE_RECORDING": {
-      "description": "Make it true if you want bot fake record.",
-      "required": true,
-      "value": "false"
-    },
-
-    "AUTO_REACT": {
-      "description": "Make it true if you want bot AutoReact.",
-      "required": true,
-      "value": "true"
-    },
-
-    "OWNER_REACT": {
-      "description": "Make it true if you want bot OwnerReact.",
-      "required": true,
-      "value": "true"
-    
-    }, 
-
-   "ALWAYS_ONLINE": {
-      "description": "Make it true if want automatic voice reply .",
-      "required": false,
-      "value": "true"
-    }, 
-
-  "AUTO_STATUS_REPLY": {
-      "description": "Make it true if want automatic status reply .",
-      "required": false,
-      "value": "true"
-    },    
-
-      "READ_MESSAGE": {
-      "description": "Make it true if you want bot read your all sms just now.",
-      "required": true,
-      "value": "false"
-    }, 
-    
-    "AUTO_STATUS__MSG": {
-      "description": "enter your caption if you want to show on status reply.",
-      "required": true,
-      "value": "YOUR STATUS SEEN JUST NOW BY MANISHA-MD"
-    },    
-
-      "AUTHOR": {
-      "description": "stickerpack author name",
-      "required": true,
-      "value": "MANISHA-MD"
-    },
-
-    "PACKNAME": {
-      "description": "stickerpack pack name",
-      "required": true,
-      "value": "manisha"
-    },
-
-    "ANTI_DEL_PATH": {
-      "description": "set 'same' if you want anti deleted message on same chat where it was deleted.",
-      "required": true,
-      "value": "log"
     }
 
-
+  
 },
 
      "buildpacks": [
