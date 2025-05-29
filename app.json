@@ -1,6 +1,6 @@
 {
   "name": "MANISHA-MD",
-  "description": "",
+  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ᴄᴏᴅᴇʀ",
   "logo": "https://files.catbox.moe/vbi10j.png",
   "keywords": ["bot"],
   "success_url": "/",
@@ -17,14 +17,19 @@
       "description": "paste your image url if you don't have you can use this public url.",
       "required": true,
       "value": "https://files.catbox.moe/vbi10j.png"
-    },
-    
+    }, 
+   
     "ALIVE_MSG": {
       "description": "paste your alive message hear.",
       "required": true,
-      "value": ""
+      "value": "HII DEAR IM ONLINE I'M MANISHA-MD WHATSAPP BOT 😊♻️"
     },
     
+    "HEART_REACT": {
+      "description": "Make it true if you want bot only heart ♥️ emjois reaction .",
+      "required": true,
+      "value": "false"
+    }, 
     "PREFIX": {
       "description": "paste your bot prefix note! Don't apply null prefix.",
       "required": true,
@@ -98,19 +103,7 @@
       "value": "true"
     },    
 
-    "BOT_NAME": {
-      "description": "write hear your name.",
-      "required": true,
-      "value": "ᴍᴀɴɪꜱʜᴀ-ᴍᴅ"
-    }, 
-
-    "HEART_REACT": {
-      "description": "Make it true if you want bot only heart ♥️ emjois reaction .",
-      "required": true,
-      "value": "false"
-    }, 
-
-    "READ_MESSAGE": {
+      "READ_MESSAGE": {
       "description": "Make it true if you want bot read your all sms just now.",
       "required": true,
       "value": "false"
@@ -119,31 +112,19 @@
     "AUTO_STATUS__MSG": {
       "description": "enter your caption if you want to show on status reply.",
       "required": true,
-      "value": ""
+      "value": "YOUR STATUS SEEN JUST NOW BY MANISHA-MD"
     },    
 
-    "CUSTOM_REACT_EMOJIS": {
-      "description": "set customs emojis that bot will react.",
-      "required": true,
-      "value": "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,🧡,💛,💚,💙,🩵,💜,🤎,🖤,🩶,🤍"
-    },
-    
-    "CUSTOM_REACT": {
-      "description": "customs reaction emojis that bot will react.",
-      "required": true,
-      "value": "false"
-    },
-
-    "AUTHOR": {
+      "AUTHOR": {
       "description": "stickerpack author name",
       "required": true,
-      "value": "MANISHA MD"
+      "value": "MANISHA-MD"
     },
 
     "PACKNAME": {
       "description": "stickerpack pack name",
       "required": true,
-      "value": "created by"
+      "value": "manisha"
     },
 
     "ANTI_DEL_PATH": {
