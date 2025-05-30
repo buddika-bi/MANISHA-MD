@@ -9,6 +9,8 @@ module.exports = {
     SESSION_ID: process.env.SESSION_ID || "svEWFJhY#js5-b5WOumgdchibUPJF21d634GYTYa2ZFeRkxxId_E",
     MODE: process.env.MODE || "private",
     PREFIX: process.env.PREFIX || "/",
+    MEGA_EMAIL: process.env.MEGA_EMAIL || "sihileld23@gmail.com",
+    MEGA_PASSWORD: process.env.MEGA_PASSWORD || "sihilel2006@",
     AUTHOR: (process.env.PACK_INFO?.split(';') || [])[0] || 'MANISHA MD',
     PACKNAME: (process.env.PACK_INFO?.split(';') || [])[1] || 'MANISHA MD',
     ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/vbi10j.png",
