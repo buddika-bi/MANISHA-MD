@@ -34,6 +34,18 @@
       "description": "select your bot work type public-private-inbox-group.",
       "required": true,
       "value": "public"
+    },
+    
+    "AUTHOR": {
+      "description": "stickerpack author name",
+      "required": true,
+      "value": "MANISHA MD"
+    },
+
+    "PACKNAME": {
+      "description": "stickerpack pack name",
+      "required": true,
+      "value": "MANISHA MD"
     }
 
   

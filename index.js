@@ -78,7 +78,7 @@ console.log("🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 bot internet connected 🌐..."
   console.log("🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 Executing ✅...")
   console.log("🌀 ᴍᴀɴɪꜱʜᴀ-ᴍᴅ 💕 creatad by manisha coder 👨‍💻...")
 
-let up = `Wa-BOT connected successful ✅\n\nPREFIX: ${prefix}`;
+let up = `╭────────────●●►\n\nMANISHA-MD bot connected successful ✅\n\nPREFIX: ${prefix}\n\nMODE;${config.MODE}\n\nOWNER:94721551183╰────────────●●►`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/vbi10j.png` }, caption: up })
 
