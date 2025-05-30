@@ -9,12 +9,21 @@ Browsers
 } = require('@whiskeysockets/baileys')
 
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
+//================
+const ff = require('fluent-ffmpeg')
+const bodyparser = require('body-parser')
+const os = require('os')
+const Crypto = require('crypto')
+const path = require('path')
+  //==================
 const fs = require('fs')
 const P = require('pino')
+const StickersTypes = require('wa-sticker-formatter')
 const config = require('./config')
 const qrcode = require('qrcode-terminal')
 const util = require('util')
 const { sms,downloadMediaMessage } = require('./lib')
+const FileType = require('file-type');
 const axios = require('axios')
 const { File } = require('megajs')
 const prefix = config.PREFIX
