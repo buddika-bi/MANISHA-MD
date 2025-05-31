@@ -9,8 +9,6 @@ module.exports = {
     SESSION_ID: process.env.SESSION_ID || "",
     MODE: process.env.MODE || "private",
     PREFIX: process.env.PREFIX || "/",
-    OWNER_REACT: process.env.OWNER_REACT || "false",
-    AUTO_REACT: process.env.AUTO_REACT || "false",
     AUTHOR: (process.env.PACK_INFO?.split(';') || [])[0] || 'MANISHA MD',
     PACKNAME: (process.env.PACK_INFO?.split(';') || [])[1] || 'MANISHA MD',
     ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/vbi10j.png",
