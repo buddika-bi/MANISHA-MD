@@ -2,9 +2,9 @@
   "name": "MANISHA-MD",
   "version": "1.0",
   "description": "ᴍᴀɴɪꜱʜᴀ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ᴄᴏᴅᴇʀ",
-  "main": "index.js",
+  "main": "manisha.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name MANISHA-MD",
+    "start": "pm2 start manisha.js --deep-monitoring --attach --name MANISHA-MD",
     "stop": "pm2 stop MANISHA-MD",
     "restart": "pm2 restart MANISHA-MD"
   },
