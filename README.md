@@ -59,7 +59,7 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a> 
 
 <p align="center">
-<img src="./lib/rgb-hex.gif" alt="Loading..." width="520"/>
+<img src="https://files.catbox.moe/vxv1r3.gif" alt="Loading..." width="520"/>
 <p align="center">
 
 ---
