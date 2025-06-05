@@ -1,6 +1,6 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
-<img src="./lib/anime-girl.gif" alt="Loading..." width="520"/>
+<img src="https://files.catbox.moe/uo5syg.gif" alt="Loading..." width="520"/>
 <p align="center">
   
 <p align="center">
