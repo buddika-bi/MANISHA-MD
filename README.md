@@ -1,6 +1,6 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
-<img src="./lib/Android/database/anime-girl.gif" alt="Loading..." width="520"/>
+<img src="./lib/anime-girl.gif" alt="Loading..." width="520"/>
 <p align="center">
   
 <p align="center">
@@ -59,7 +59,7 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a> 
 
 <p align="center">
-<img src="./lib/Android/database/rgb-hex.gif" alt="Loading..." width="520"/>
+<img src="./lib/rgb-hex.gif" alt="Loading..." width="520"/>
 <p align="center">
 
 ---
